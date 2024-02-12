@@ -1,0 +1,102 @@
+{
+    "requirements": [
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "1",
+            "content": "The objective of this Standard is to specify Disclosure Requirements which will enable users of sustainability statements to understand:"
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "1a",
+            "content": "how the undertaking affects climate change, in terms of material positive and negative actual and potential impacts;"
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "1b",
+            "content": "the  undertaking’s  past,  current,  and  future  mitigation  efforts  in  line  with  the  Paris Agreement (or an updated international agreement on climate change) and compatible with limiting global warming to 1.5°C;"
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "1c",
+            "content": "the plans and capacity of the undertaking to adapt its strategy and business model, in line with the transition to a sustainable economy and to contribute to limiting global warming to 1.5°C;"
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "1d",
+            "content": "any other actions taken by the undertaking, and the result of such actions to prevent, mitigate or remediate actual or potential negative impacts, and to address risks and opportunities;"
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "1e",
+            "content": "the nature, type and extent of the undertaking’s material risks and opportunities arising from the undertaking’s impacts and dependencies on climate change, and how the undertaking manages them; and"
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "1f",
+            "content": "the financial effects on the undertaking over the short-, medium- and long-term of risks and opportunities arising from the undertaking’s impacts and dependencies on climate change."
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "2",
+            "content": "The Disclosure Requirements of this Standard take into account the requirements of related EU  legislation  and  regulation  (i.e.,  EU  Climate  Law 1 ,  Climate  eenchmark  Standards Regulation, Sustainable Finance Disclosure Regulation (SFDR), EU Taxonomy, and EeA Pillar 3 disclosure requirements)"
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "3",
+            "content": "This  Standard  covers  Disclosure  Requirements  related  to  the  following  sustainability matters: “Climate  change  mitigation” and “Climate  change  adaptation”. It also covers energy-related matters, to the extent that they are relevant to climate change."
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "4",
+            "content": "Climate change mitigation relates to the undertaking’s endeavours to the general process of limiting the increase in the global average temperature to 1,5 °C above pre-industrial levels in line with the Paris Agreement. This Standard covers disclosure requirements related but  not limited to the seven Greenhouse gases (GHG)  carbon dioxide (CO2), methane (CH4), nitrous  oxide  (N2O),  hydrofluorocarbons  (HFCs),  perfluorocarbons  (PFCs),  sulphur hexafluoride (SF6) and nitrogen trifluoride (NF3). It also covers Disclosure Requirements on how the undertaking addresses its GHG emissions as well as the associated transition risks."
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "5",
+            "content": "Climate change adaptation relates to the undertaking’s process of adjustment to actual and expected climate change."
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "6",
+            "content": "This Standard covers Disclosure Requirements regarding climate-related hazards that can lead to physical climate risks for the undertaking and its adaptation solutions to reduce these risks. It also covers transition risks arising from the needed adaptation to climate- related hazards."
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "1",
+            "chapterTitle": "Objective",
+            "paragraphId": "7",
+            "content": "The Disclosure Requirements related to “Energy” cover all types of energy production and consumption."
+        },
+        {
+            "standard": "ESRS E1",
+            "chapterId": "2",
+            "chapterTitle": "Disclosure Requirements",
+            "paragraphId": "8",
+            "content": "The undertaking shall disclose its transition plan for climate change mitigation and doesn't mention the word \"ocean\" in its statements."
+        }
+    ]
+}

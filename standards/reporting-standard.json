@@ -1,0 +1,10 @@
+{
+    "requirements": [
+        {
+            "chapterId": "1",
+            "chapterTitle": "Disclosure requirements",
+            "requirementId": "1a",
+            "requirementText": "The report should contain the word 'environment'."
+        }
+    ]
+}
