@@ -11,6 +11,9 @@ from langchain.agents.agent_types import AgentType
 from langchain.memory import ConversationBufferMemory
 from langchain.agents import initialize_agent
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 
 class DisclosureRequirement(BaseModel): 
@@ -40,7 +43,7 @@ parser = PydanticOutputParser(pydantic_object=DisclosureRequirement)
 #     },
 # )
 
-llm = ChatOpenAI(temperature=0, api_key="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", model="gpt-4")
+llm = ChatOpenAI(temperature=0, api_key=os.getenv("OPENAI_API_KEY"), model="gpt-4")
 
 
 tools = load_tools([], llm=llm)

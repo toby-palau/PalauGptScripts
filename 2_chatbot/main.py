@@ -12,6 +12,9 @@ from langchain.llms import Together
 from langchain.document_loaders import (PyPDFLoader, JSONLoader)
 from langchain.text_splitter import CharacterTextSplitter
 
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 # def metadata_func(record: dict, metadata: dict) -> dict:
 #     metadata["chapterTitle"] = record.get("chapterTitle")
@@ -22,7 +25,7 @@ from langchain.text_splitter import CharacterTextSplitter
 def main():
     # Initialize LLM
     llm = Together(
-        together_api_key="73d9504f61ce7f7b552568845901023587a3728c25cc04849d0f0c5e276a5d34", 
+        together_api_key=os.getenv("TOGETHER_API_KEY"), 
         # model="mistralai/Mistral-7B-Instruct-v0.2"
         model="mistralai/Mistral-7B-Instruct-v0.2"
         # model="togethercomputer/Llama-2-7B-32K-Instruct"
@@ -31,7 +34,7 @@ def main():
     # vectorstore = chromadb.PersistentClient()
 
     # embeddings = TogetherEmbeddings(
-    #     together_api_key="73d9504f61ce7f7b552568845901023587a3728c25cc04849d0f0c5e276a5d34",
+    #     together_api_key=os.getenv("TOGETHER_API_KEY"),
     #     model="mistralai/Mistral-7B-v0.1"
     # )
 

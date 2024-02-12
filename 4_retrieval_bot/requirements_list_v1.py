@@ -5,6 +5,11 @@ from langchain.chat_models import ChatOpenAI
 from langchain.llms import Together
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 if __name__ == "__main__":
     st.title("ESRS Disclosure Requirements")
@@ -23,9 +28,9 @@ if __name__ == "__main__":
         )
         df["completed"] = False
     
-    llm = ChatOpenAI(temperature=0, api_key="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", model="gpt-4")
+    llm = ChatOpenAI(temperature=0, api_key=os.getenv("OPENAI_API_KEY"), model="gpt-4")
     # llm = Together(
-        # together_api_key="73d9504f61ce7f7b552568845901023587a3728c25cc04849d0f0c5e276a5d34", 
+        # together_api_key=os.getenv("TOGETHER_API_KEY"), 
         # model="mistralai/Mistral-7B-Instruct-v0.2"
         # model="mistralai/Mixtral-8x7B-Instruct-v0.1"
         # model="togethercomputer/llama-2-70b-chat"

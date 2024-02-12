@@ -12,6 +12,10 @@ from langchain.llms import Together
 from langchain.document_loaders import (PyPDFLoader, JSONLoader)
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.schema import HumanMessage, SystemMessage, AIMessage
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 
 
@@ -24,7 +28,7 @@ from langchain.schema import HumanMessage, SystemMessage, AIMessage
 def main():
     # Initialize LLM
     llm = Together(
-        together_api_key="73d9504f61ce7f7b552568845901023587a3728c25cc04849d0f0c5e276a5d34", 
+        together_api_key=os.getenv("TOGETHER_API_KEY"), 
         # model="mistralai/Mistral-7B-Instruct-v0.2"
         model="mistralai/Mixtral-8x7B-Instruct-v0.1"
         # model="togethercomputer/Llama-2-7B-32K-Instruct"
@@ -53,7 +57,7 @@ def main():
             response =  llm(
                 prompt=f"""
                     You are an assistant and you are having a chat conversation with the user. You can read the chat history below. 
-                    
+
                     [INST]
                     Now you're going to respond to the user's latest message with a response from the assistant. First write down your thoughts and decissions. Then your response as assistant. 
                     Never predict any messages that the user would send. Never write the identifiers "assistant:" or "user:" in your responses. 
